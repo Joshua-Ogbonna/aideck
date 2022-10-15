@@ -1,0 +1,79 @@
+.home__component {
+  background-image: url("https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.home__component .hero__component {
+  padding: 280px 100px;
+  height: 100%;
+  color: var(--white-color);
+}
+.home__component .hero__component h1 {
+  font-size: var(--primary-font);
+  font-size: 60px;
+  width: 600px;
+  /* text-align: center; */
+  font-weight: 800;
+  /* color: var(--primary-color); */
+}
+.home__component .hero__component p {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  width: 500px;
+  font-size: 17px;
+}
+.home__component .hero__component button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  background: var(--secondary-color);
+  color: var(--white-color);
+  font-weight: 700;
+}
+
+.about__component {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  text-align: center;
+  font-family: var(--primary-font);
+}
+.about__component div {
+  width: 300px;
+}
+.about__component div h5 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.about__component div i {
+  padding: 10px;
+  background: var(--secondary-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 100px;
+}
+.about__component div p {
+  font-size: 15px;
+}
+
+/* Footer Styles */
+.footer__section {
+  background: var(--primary-color);
+  padding: 30px 100px;
+  text-align: center;
+  color: var(--white-color);
+  font-family: var(--primary-font);
+}
+.footer__section p {
+  font-size: 16px;
+}
+.footer__section .socials i {
+  margin: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

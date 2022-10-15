@@ -1,0 +1,21 @@
+.missionary__applications {
+  margin-top: 50px;
+  font-family: var(--secondary-font);
+}
+.missionary__applications table thead tr {
+  font-size: 15px;
+  color: grey;
+}
+.missionary__applications table tbody tr td div {
+  font-size: 13px;
+  padding: 10px 0;
+}
+.missionary__applications table tbody tr td .view__more {
+  cursor: pointer;
+}
+.missionary__applications table tbody tr td .actions button {
+  font-size: 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+}

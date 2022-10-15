@@ -1,0 +1,34 @@
+.nav__component {
+  justify-content: space-between;
+  padding: 20px 100px;
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  background: var(--primary-color);
+  width: 100%;
+}
+.nav__component .brand img {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+.nav__component,
+.nav__component ul {
+  display: flex;
+  align-items: center;
+}
+.nav__component ul {
+  padding-left: 0;
+}
+.nav__component ul li {
+  list-style: none;
+  margin-left: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav__component ul li a {
+  text-decoration: none;
+  color: var(--white-color);
+}

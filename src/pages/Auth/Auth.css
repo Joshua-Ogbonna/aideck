@@ -1,0 +1,64 @@
+.auth__component .choice {
+  padding: 270px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.auth__component .choice div {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--primary-color);
+  height: 150px;
+  font-family: var(--primary-font);
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.auth__component .choice div i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.user__account .form__group {
+  padding: 150px 100px;
+  width: 700px;
+  margin: auto;
+}
+.user__account .form__group h5 {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 16px;
+}
+.user__account .form__area button {
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-size: 15px;
+  font-family: var(--secondary-font);
+}
+.user__account .form__area span {
+  font-size: 12px;
+  width: 100%;
+  color: var(--primary-color);
+  font-weight: 800;
+}
+.user__account .identification label {
+  margin-bottom: 0;
+}
+.user__account .form__area .upload__field {
+  margin-top: 10px;
+  text-align: center;
+  padding: 50px 0;
+  cursor: pointer;
+}
+.user__account .form__area .upload__field i {
+  font-size: 60px;
+}

@@ -1,0 +1,55 @@
+.give__components .campaigns__section {
+  padding: 150px 100px;
+  font-family: var(--secondary-font);
+  height: 100vh;
+}
+.give__components .campaigns__section .campaigns {
+  margin-top: 50px;
+}
+.give__components .campaigns__section .campaigns a {
+  text-decoration: none;
+  color: #000;
+}
+.give__components .campaigns__section .campaigns .campaign {
+  cursor: pointer;
+}
+.single__campaign {
+  padding: 150px 100px;
+  font-family: var(--secondary-font);
+  /* width: 700px; */
+}
+.single__campaign h5 {
+  font-weight: 600;
+}
+.single__campaign .campaign__head {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between;   */
+}
+.single__campaign .campaign__head p {
+  color: grey;
+  margin: -5px 0 0 20px;
+  font-weight: 600;
+}
+.single__campaign .target {
+  font-weight: 700;
+  font-size: 24px;
+}
+.single__campaign .images {
+  display: flex;
+  gap: 30px;
+}
+.single__campaign .images img {
+  width: 280px;
+  height: 200px;
+}
+.single__campaign button {
+  margin-top: 30px;
+  padding: 10px 34px;
+  border: none;
+  background: var(--primary-color);
+  border-radius: 4px;
+  font-weight: 600;
+  color: var(--white-color);
+  font-size: 13px;
+}

@@ -1,0 +1,22 @@
+.admin__components {
+  padding: 150px 100px;
+  font-family: var(--secondary-font);
+}
+.admin__components .tabs {
+  display: flex;
+  align-items: center;
+}
+.admin__components .tabs div {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin__components .tabs div a {
+  text-decoration: none;
+  font-weight: 600;
+}

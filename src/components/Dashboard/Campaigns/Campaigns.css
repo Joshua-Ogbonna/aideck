@@ -1,0 +1,60 @@
+.dashboard__components .campaigns__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-bottom: 50px; */
+}
+.dashboard__components .campaigns__head button {
+  border: none;
+  border-radius: 4px;
+  background: var(--secondary-color);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--white-color);
+  padding: 12px 24px;
+}
+.dashboard__components .campaigns {
+  margin-top: 40px;
+}
+.dashboard__components .form__group {
+  padding-bottom: 50px;
+}
+.dashboard__components .form__group .form__area textarea {
+  width: 100%;
+  padding: 10px;
+}
+.dashboard__components .form__group .upload__images {
+  text-align: center;
+  margin-top: 20px;
+  border-style: dashed;
+  border: 2px solid rgb(202, 199, 199);
+  border-radius: 4px;
+  padding: 50px 0;
+  cursor: pointer;
+  font-family: var(--secondary-font);
+  transition: 0.2s all ease-in;
+  outline: 0;
+}
+.dashboard__components .form__group .upload__images i {
+  font-size: 60px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.dashboard__components .form__group .upload__images p {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.dashboard__components .form__group .form__area .upload__area:hover {
+  background-color: #eaedfa;
+  border: none;
+}
+.dashboard__components .images {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.dashboard__components .images img {
+    width: 200px;
+    height: 100px;
+}

@@ -1,0 +1,121 @@
+.dashboard__components {
+  font-family: var(--secondary-font);
+  width: 700px;
+}
+.dashboard__components .dashboard__summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  gap: 24px;
+}
+.dashboard__components .dashboard__summary .summary {
+  width: 300px;
+  height: 200px;
+  padding: 40px 20px;
+  cursor: pointer;
+  font-family: var(--secondary-font);
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.dashboard__components .dashboard__summary .summary span {
+  font-size: 14px;
+}
+.dashboard__components .dashboard__summary .summary h5 {
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.dashboard__components .dashboard__summary .active__summary {
+  background: var(--secondary-color);
+  opacity: 1;
+}
+.dashboard__components .dashboard__summary .summary p {
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.dashboard__components .your__campaigns {
+  margin-top: 40px;
+  width: 100%;
+}
+.dashboard__components .your__campaigns .campaign {
+  margin: 20px 0;
+}
+.dashboard__components .your__campaigns .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard__components .your__campaigns .head h5,
+.dashboard__components .donation__history h5 {
+  font-size: 16px;
+}
+.dashboard__components .your__campaigns .head i {
+  font-size: 24px;
+  cursor: pointer;
+}
+.campaign .campaign__head {
+  display: flex;
+  margin-bottom: 10px;
+}
+.campaigns .campaign img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.campaigns .campaign .campaign__head h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.campaigns .campaign .campaign__head p {
+  font-size: 12px;
+  line-height: 0;
+}
+.campaigns .campaign .lines {
+  display: flex;
+  width: 100%;
+}
+.campaigns .campaign .lines hr {
+  height: 3px;
+}
+
+.campaigns .campaign .lines .active__line {
+  background-color: var(--secondary-color);
+}
+.campaigns .campaign .campaign__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.campaigns .campaign .campaign__body p {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.campaigns .campaign .campaign__body p span {
+  color: grey;
+}
+.dashboard__components .donation__history {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.dashboard__components .donation__history h5 {
+  margin-bottom: 20px;
+}
+.dashboard__components .donation__history .table thead tr th div {
+  font-size: 15px;
+  color: grey;
+}
+.dashboard__components .donation__history .table tbody tr td div {
+  font-size: 13px;
+}
